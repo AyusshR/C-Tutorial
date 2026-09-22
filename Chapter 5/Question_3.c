@@ -17,7 +17,7 @@ int main(){
     
     int s = sum(x, y);
     printf("sum is : %d\n", s);
-    printTable(s);
+    printTable(s); //Argument/ Actual parameter
     return 0;
 }
 
