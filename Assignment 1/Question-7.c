@@ -9,7 +9,6 @@ Ensure that the percentage is displayed correctly as a decimal value.*/
 int main(void) {
     float Maths, Physics, FOCP, PSDT, BME;
 
-    //Storing marks of the User//
     printf("Marks in Maths : \n");
     scanf("%f", &Maths);
     printf("Marks in Physics : \n");
@@ -21,7 +20,6 @@ int main(void) {
     printf("Marks in BME : \n");
     scanf("%f", &BME);
 
-    //Displaying the Final Percentage//
     printf("Total Percentage : %.2f %%\n", (Maths + Physics + FOCP + PSDT + BME)/5);
 
     return 0;

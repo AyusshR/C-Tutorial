@@ -9,10 +9,8 @@ Display the final salary up to two decimal places.*/
 #include <stdio.h>
 
 int main() {
-    // Declare variables for basic salary, allowance, bonus, and final salary
     float basicSalary, allowance, bonus, finalSalary;
 
-    // Accept user input for basic salary, allowance, and bonus
     printf("Enter Basic Salary: ");
     scanf("%f", &basicSalary);
     
@@ -22,10 +20,8 @@ int main() {
     printf("Enter Bonus: ");
     scanf("%f", &bonus);
 
-    // Calculate the final salary
     finalSalary = basicSalary + allowance + bonus;
 
-    // Display the final salary up to two decimal places
     printf("Final Salary: %.2f\n", finalSalary);
 
     return 0;

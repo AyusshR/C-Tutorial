@@ -6,12 +6,10 @@ Display all the entered values clearly using printf().*/
 #include <stdio.h>
 
 int main() {
-    // Declare variables of appropriate primitive data types
     int age;
     float height;
     char grade;
 
-    // Accept user input for age, height, and grade
     printf("Enter Age: ");
     scanf("%d", &age);
     
@@ -21,7 +19,6 @@ int main() {
     printf("Enter Grade (single character): ");
     scanf(" %c", &grade); // Note the space before %c to consume any leftover newline character
 
-    // Display the entered values
     printf("\nEntered Details:\n");
     printf("Age: %d\n", age);
     printf("Height: %.2f meters\n", height);

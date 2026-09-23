@@ -11,15 +11,12 @@ After swapping: 20 10*/
 int main(void){
     int a = 10,b = 20,c;
 
-    //Displaying the Variables before Swapping//
     printf("%d %d\n", a, b);
 
-    //Swapping the variables using the third one//
     c = a;
     a = b;
     b = c;
 
-    //Displaying the Variables after Swapping//
     printf("%d %d", a, b);
 
     return 0;

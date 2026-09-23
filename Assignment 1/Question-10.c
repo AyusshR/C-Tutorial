@@ -16,8 +16,6 @@ Final Payable Amount*/
 #include <stdio.h>
 
 int main(void) {
-    /* Declare variables for Product_ID, Product_Price, Quantity, Discount Percentage 
-    and Taking values from the user */
     int Product_ID;
     printf("Please Enter the Product ID: ");
     scanf("%d", &Product_ID);

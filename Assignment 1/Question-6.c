@@ -8,13 +8,10 @@ int main() {
     int a,b;
     a = 10, b = 20;
  
-    //Calculating the Quotient//
     int Quotient = b/a;
 
-    //Calculating the Remainder//
     int Remainder = b%a;
 
-    //Printing the output//
     printf("Quotient by dividing two variables: %d\n", Quotient);
     printf("Remainder by dividing two variables: %d\n", Remainder);
     
