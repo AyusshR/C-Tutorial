@@ -1,0 +1,28 @@
+/*Implement a C program to accept marks obtained in five subjects, where each subject is out
+of 100.
+Calculate and display:
+• Total Marks
+• Percentage
+Ensure that the percentage is displayed correctly as a decimal value.*/
+#include <stdio.h>
+
+int main(void) {
+    float Maths, Physics, FOCP, PSDT, BME;
+
+    //Storing marks of the User//
+    printf("Marks in Maths : \n");
+    scanf("%f", &Maths);
+    printf("Marks in Physics : \n");
+    scanf("%f", &Physics);
+    printf("Marks in FOCP : \n");
+    scanf("%f", &FOCP);
+    printf("Marks in Maths : \n");
+    scanf("%f", &PSDT);
+    printf("Marks in BME : \n");
+    scanf("%f", &BME);
+
+    //Displaying the Final Percentage//
+    printf("Total Percentage : %.2f %%\n", (Maths + Physics + FOCP + PSDT + BME)/5);
+
+    return 0;
+}
