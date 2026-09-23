@@ -7,10 +7,10 @@ Ensure that the percentage is displayed correctly as a decimal value.*/
 #include <stdio.h>
 
 int main(void) {
-    float Maths, Physics, FOCP, PSDT, BME;
+    float Mathematics, Physics, FOCP, PSDT, BME;
 
     printf("Marks in Maths : \n");
-    scanf("%f", &Maths);
+    scanf("%f", &Mathematics);
     printf("Marks in Physics : \n");
     scanf("%f", &Physics);
     printf("Marks in FOCP : \n");
@@ -20,7 +20,7 @@ int main(void) {
     printf("Marks in BME : \n");
     scanf("%f", &BME);
 
-    printf("Total Percentage : %.2f %%\n", (Maths + Physics + FOCP + PSDT + BME)/5);
+    printf("Total Percentage : %.2f %%\n", (Mathematics + Physics + FOCP + PSDT + BME)/5);
 
     return 0;
 }
